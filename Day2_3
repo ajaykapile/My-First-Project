@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int obstacle;
+
+    printf("Is obstacle detected? (1 = Yes, 0 = No): ");
+    scanf("%d", &obstacle);
+
+    if (obstacle == 1)
+    {
+        printf("Robot: STOP\n");
+        printf("Robot: TURN\n");
+    }
+    else
+    {
+        printf("Robot: MOVE FORWARD\n");
+    }
+
+    return 0;
+}
